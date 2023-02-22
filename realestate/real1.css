@@ -1,0 +1,256 @@
+.whole {
+  margin: auto;
+  height: 700px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Photos/mainBackground.png);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+article {
+  margin-left: 70px;
+  color: white;
+}
+.left-top {
+  width: 50%;
+}
+.right-top {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+a {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.details {
+  margin-top: 70px;
+  width: 50%;
+}
+
+.heading {
+  font-size: 90px;
+}
+.para {
+  font-size: 40px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  filter: brightness(100%);
+}
+.learn {
+  margin-top: 10px;
+  width: 15%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 12px;
+
+  background-color: rgb(6, 90, 6);
+  color: white;
+  font-weight: bold;
+}
+.bottom-logos-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: wheat;
+  width: 70%;
+  margin-bottom: 880px;
+}
+
+.second-page {
+  margin-top: 60px;
+}
+.modern {
+  margin: auto;
+  width: 40%;
+}
+.modernheading {
+  font-size: 50px;
+  text-align: center;
+}
+.houses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.house {
+  position: relative;
+  width: 100%;
+
+  height: 85%;
+}
+.first-house-details {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 12px;
+}
+.first,
+.second,
+.third {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.second-house {
+  align-self: center;
+}
+
+.third-house {
+  align-self: flex-end;
+}
+
+.house-detail {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.lastpagegrid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.firstright,
+.secondleft {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.modern {
+  font-size: 80px;
+  width: 100%;
+  margin: 0;
+}
+
+.btn {
+  font-size: 30px;
+  width: 40%;
+  border-radius: 12px;
+  color: white;
+  background-color: blueviolet;
+  padding: 8px;
+}
+.firstleft,
+.secondright {
+  position: relative;
+}
+.featureimg {
+  position: absolute;
+  left: 22%;
+  bottom: 25%;
+  width: 70%;
+  height: 80%;
+  border-radius: 50px;
+}
+.featureimg2 {
+  position: absolute;
+  left: 18%;
+  bottom: 25%;
+  width: 70%;
+  height: 80%;
+  border-radius: 50px;
+}
+
+.subscribe {
+  grid-column: 1/-1;
+}
+
+.subscribeto,
+.parasub,
+.subform {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.subscribeto {
+  font-size: 60px;
+}
+.subscribe {
+  /* width: 70%; */
+  width: 100%;
+  justify-self: center;
+  background-color: blueviolet;
+  border-radius: 20px;
+  padding: 50px;
+}
+.inp {
+  width: 40%;
+  height: 30px;
+}
+.submit {
+  height: 35px;
+  width: 20%;
+  color: blueviolet;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.leftfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.firstflex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightfooter {
+  display: flex;
+  justify-content: space-around;
+}
+.lastlink {
+  color: black;
+}
+
+.icons,
+.logo,
+.detailspara {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  font-size: 30px;
+}
+.whole,
+.second-page,
+.lastpagegrid {
+  padding: 100px;
+  background-color: rgb(197, 205, 205);
+}
+
+.poora {
+  background-color: rgb(197, 205, 205);
+}
+
+.he {
+  font-size: 25px;
+}

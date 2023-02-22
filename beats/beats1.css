@@ -1,0 +1,282 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  margin: auto;
+}
+
+.left-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-bottom: 150px;
+}
+.beatsthree {
+  width: 50%;
+  margin-top: 20px;
+}
+.para {
+  font-weight: bold;
+  color: #ffffffb5;
+  margin-bottom: 20px;
+}
+.beatsthreeh {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.overview {
+  font-size: 25px;
+  color: #ffffffb5;
+}
+.onear {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: 150px;
+}
+
+.beatsthree {
+  grid-column: 2/3;
+}
+
+.addtocart {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+}
+.buttontext {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.price,
+.addtocart {
+  color: #ffffffb5;
+}
+.logolinks {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+.whole {
+  background-color: black;
+}
+
+.beatsthree {
+  color: white;
+}
+
+.mainimage {
+  height: 70%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.shopbutton {
+  padding: 5px 20px;
+  font-size: 15px;
+}
+.specs {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.specsflex {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+.bluetooth,
+.microphone {
+  margin-left: 40px;
+}
+
+.case {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.caseflex {
+  width: 35%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.casepara {
+  color: white;
+}
+
+.moreinfobutton {
+  width: 100%;
+  color: white;
+}
+
+.moreinfobuttontext {
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+}
+
+.immenseflex {
+  display: flex;
+
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.buybutton {
+  width: 60%;
+  color: white;
+  background-color: black;
+}
+
+.buybuttontext {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.leftimmense {
+  color: white;
+  height: 70%;
+  width: 30%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.case {
+  margin: 0;
+}
+
+.headphonegrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 100px;
+}
+.headimagediv {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background-color: black;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  width: 30%;
+  justify-self: right;
+}
+.headimagediv2 {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background-color: black;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  width: 30%;
+  justify-self: left;
+}
+
+.blackheadimg {
+  margin: auto;
+  position: absolute;
+  top: -40%;
+  left: 40px;
+  width: 150px;
+  height: 200px;
+}
+.details {
+  color: white;
+}
+
+.buttonflex {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 70%;
+  justify-content: space-around;
+  align-items: center;
+}
+.choose {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.iconlinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.productslist,
+.supportlist {
+  color: white;
+}
+
+.bottomgrid {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.beatslogo {
+  height: 10%;
+}
+
+.emailandsub {
+  display: flex;
+  justify-content: space-around;
+}
+
+.emailinput {
+  width: 50%;
+  background-color: black;
+  color: white;
+}
+
+.sub {
+  width: 50%;
+  background-color: black;
+  color: white;
+}
+.btntext {
+  display: flex;
+  justify-content: space-around;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconlinks {
+  width: 40%;
+}
